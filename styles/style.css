@@ -120,6 +120,7 @@ body{
 }
 
 .aboutMe{
+    position: relative;
     display: flex;
     flex-direction: column;
     max-width: 40%;
@@ -147,14 +148,12 @@ body{
     height: 100%;
     width: 65px;
     top: 0;
-    left: 48.2%;
-    transform: translateX(-50%);
+    left: 50%;
     padding-bottom: 5px;
     background-color: #3D3D3D;
-    transform: rotate(-180deg);
     white-space: nowrap;
     word-spacing: 1em;
-
+    transform: translateX(-50%) rotate(-180deg);
 }
 
 .division p{
@@ -282,8 +281,12 @@ body{
         bottom: 20px;
     }
 
-    .mainYear, .nextSection{
-        bottom: 60px;
+    .nextSection{
+        bottom: 65px;
+    }
+
+    .mainYear{
+        bottom: 70px;
     }
 
     .aboutMe h2{
