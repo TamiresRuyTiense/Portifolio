@@ -103,6 +103,7 @@ body{
 /* Frist Section */
 
 .section1Container{
+    padding-top: 10px;
     height: 100vh;
     position: relative;
 }
@@ -267,6 +268,14 @@ body{
 }
 
 @media (max-width: 1060px){
+
+    .nextSection2{
+        bottom: 20px;
+    }
+
+    .homeSection{
+        bottom: 20px;
+    }
 
     .mainYear, .nextSection{
         bottom: 100px;
