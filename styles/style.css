@@ -278,7 +278,7 @@ body{
     }
 
     .mainYear, .nextSection{
-        bottom: 100px;
+        bottom: 50px;
     }
 
     .aboutMe h2{
@@ -306,6 +306,18 @@ body{
 }
 
 @media (max-width: 780px){
+
+    .nextSection2{
+        bottom: 60px;
+    }
+
+    .homeSection{
+        bottom: 60px;
+    }
+
+    .mainYear, .nextSection{
+        bottom: 50px;
+    }
 
     .nextSection img{
         width: 45px;
