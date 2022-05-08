@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+    background-color: #fafafa;
+    
+}
+
+/* MainSection */
+
+.mainConainer{
+    height: 100vh;
+}
+
+.main{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    color: #3D3D3D;
+}
+
+.mainName{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50px;
+    left: 5vw;
+}
+
+.mainTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mainTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 5em;
+}
+
+.mainTitle span{
+    font-weight: bold;
+}
+
+/* Mobile */
+
+.mainTitleMobile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.mainTitleMobile{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 5em;
+}
+
+.mainTitleMobile span{
+    font-weight: bold;
+}
+
+/* End Mobile */
+
+.mainYear{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 50px;
+    right: 5vw;
+}
+
+.nextSection{
+    position: absolute;
+    left: 50vw;
+    bottom: 10px;
+    transition: 1s;
+}
+
+.nextSection img{
+    transition: 1s;
+    width: 65px;
+}
+
+.nextSection:hover img{
+    transform: scale(1.1);
+}
+
+/* Frist Section */
+
+.section1Container{
+    height: 100vh;
+    position: relative;
+}
+
+.section1{
+    color: #3D3D3D;
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 5fr 200px 1fr;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.aboutMe h2{
+    font-size: 3.5em;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.aboutMe p{
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 65px;
+    top: 0;
+    left: 50vw;
+    background-color: #3D3D3D;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    word-spacing: 1em;
+
+}
+
+.division p{
+    margin: 10px;
+    transform: rotate(90deg);
+    color: white;
+    font-size: 1.5em;
+}
+
+.abilities{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.abilities p{
+    white-space: nowrap;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #3D3D3D;
+    width: 100%;
+    color: white;
+}
+
+.abilities p:nth-child(2n+1){
+    background-color: darkgray;
+}
+
+.nextSection2{
+    position: absolute;
+    left: 50vw;
+    bottom: 5px;
+    transition: 1s;
+}
+
+#newNextSection2{
+    display: none;
+}
+
+.nextSection2 img{
+    transition: 1s;
+    width: 65px;
+}
+
+.nextSection2:hover img{
+    transform: scale(1.1);
+}
+
+.section2{
+    position: relative;
+    margin: auto;
+    width: 60vw;
+    height: 100vh;
+}
+
+.section2 img{
+    margin: auto;
+    height: 100vh;
+}
+
+
+/* Last Section */
+
+.section2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.homeSection{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: .5;
+    transition: .5s;
+}
+
+.homeSection:hover{
+    opacity: 1;
+}
+
+.homeSection img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Medias */
+
+@media (max-width: 1280px){
+
+    .aboutMe p{
+        width: 150%;
+    }
+
+    .abilities{
+        margin-right: 50px;
+    }
+
+    .abilities p{
+        font-size: .6em;
+        padding: 10px;
+        margin: 15px 0;
+        white-space: nowrap;
+        background-color: #3D3D3D;
+        width: 100vw;
+        color: white;
+    }
+
+}
+
+@media (max-width: 1060px){
+
+    .aboutMe h2{
+        font-size: 2em;
+    }
+
+    .aboutMe p{
+        font-size: 1.2em;
+    }
+
+
+}
+
+@media (max-width: 950px){
+
+    .mainTitleMobile{
+        justify-content: center;
+        display: block;
+    }
+
+    .mainTitle{
+        display: none;
+    }
+
+}
+
+@media (max-width: 780px){
+
+    .nextSection img{
+        width: 45px;
+    }
+
+    .homeSection img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .aboutMe p{
+        font-size: 1em;
+    }
+
+    .section2{
+        width: 80vw;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .division{
+        width: 30px;
+    }
+
+    .nextSection2 img{
+        width: 30px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .aboutMe p{
+        width: 180%;
+    }
+}
+
+@media (max-width: 600px){
+
+    .abilities p{
+        padding: 5px;
+        margin-left: 15%;
+    }
+
+    .aboutMe p{
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 530px){
+
+    .division{
+        width: 20px;
+    }
+
+    .division p{
+        font-size: 1.2em;
+    }
+
+    .nextSection2 img{
+        width: 20px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .slideSection2{
+        top: 50%;
+        transform: translateY(-50%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .nextSection img{
+        width: 35px;
+    }
+
+    .homeSection img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .mainName{
+        font-size: 1em;
+    }
+
+    .mainTitleMobile{
+        font-size: 3em;
+    }
+
+    .mainYear{
+        font-size: 1em;
+    }
+
+    .aboutMe{
+        margin-left: 10px;
+    }
+
+    .aboutMe h2{
+        margin-bottom: 10px;
+    }
+
+    .aboutMe p{
+        width: 265%;
+    }
+
+    .division{
+        display: none;
+    }
+
+    .nextSection2{
+        display: none;
+    }
+
+    #newNextSection2{
+        display: block;
+    }
+
+    .abilities p{
+        font-size: .5em;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+
+    .homeSection img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .aboutMe{
+        margin-left: 10px;
+    }
+
+    .aboutMe h2{
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    .aboutMe p{
+        width: 300%;
+        font-size: .8em;
+
+    }
+
+    .abilities{
+        margin-left: 15%;
+        font-size: 1.3em;
+    }
+
+}
+
+@media screen and (max-width: 330px){
+
+    .abilities{
+        font-size: 1.1em;
+    }
+
+    .mainTitleMobile{
+        font-size: 2.5em;
+    }
+}

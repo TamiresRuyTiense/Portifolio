@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+
+    <link rel= icon href="./images/icon3.png" type="image/png">
+
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Lato', sans-serif;  font-family: 'Montserrat', sans-serif; -->
+
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+    
+    <section class="mainConainer">
+        <div class="main" id="home">
+            <p class="mainName">TAMIRES RUY TIENSE</p>
+            <h1 class="mainTitle">RENDER<span>PORTIFÓLIO</span></h1>
+            <h1 class="mainTitleMobile">RENDER<br><span>PORTIFÓLIO</span></h1>
+            <p class="mainYear">2021</p>
+            <a class="nextSection" href="#section1"><img src="./images/arrowdown.png"></a>
+        </div>
+    </section>
+
+
+    <section class="section1Container">
+        <section id="section1" class="section1">
+
+            <div class="aboutMe">
+                <h2>Sobre mim</h2>
+                <p>Sou Tamires, tenho 20 anos e sou graduanda em Arquitetura e Urbanismo. A arquitetura me motiva, pois melhora a qualidade de vida das pessoas de uma forma bela e funcional. Além disso, gosto de usar a racionalidade e criatividade na resolução de problemas.
+                    Minhas características mais marcantes são o detalhismo e a dedicação. Além disso, sou responsável e sempre disposta a adiquirir novos conhecimentos e melhorar minhas habilidades. Sempre participo de palestras, workshops e treino softwares.
+                    Em síntese, sou única, tendo em vista todo meu esforço e conquistas para chegar nesse patamar.
+                </p>
+            </div>
+
+            <div class="division">
+                <p>CONHECIMENTOS E HABILIDADES</p>
+            </div>
+
+            <div class="abilities">
+
+                <p>V-RAY | Intermediário</p>
+                <p>SKETCHUP  | Intermediário</p>
+                <p>AUTOCAD  | Intermediário</p>
+                <p>PACOTE OFFICE | Intermediário</p>
+                <p>INGLÊS | Intermediário</p>
+                <p>PROATIVIDADE</p>
+                <p>DETALHISMO</p>
+
+            </div>
+        
+            
+        </section>
+
+        <a class="nextSection2" href="#section2"><img src="./images/arrowdownwhite.png"></a>
+        <a id="newNextSection2" class="nextSection2" href="#section2"><img src="./images/arrowdown.png"></a>
+    </section>
+
+    <section class="section2" id="section2">
+        <div class="slideSection2">
+            <div> <img src="./images/project1.jpeg"> </div>
+            <div> <img src="./images/project2.jpeg"> </div>
+            <div> <img src="./images/project3.jpeg"> </div>
+            <div> <img src="./images/project4.jpeg"> </div>
+        </div>
+    <a class="homeSection" href="#home"><img src="./images/arrowup.png"></a>
+    </section>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slideSection2').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+        });
+      </script>
+</body>
+</html>
