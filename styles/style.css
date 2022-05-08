@@ -22,7 +22,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90%;
+    height: 100%;
     position: relative;
     color: #3D3D3D;
 }
@@ -268,8 +268,8 @@ body{
 
 @media (max-width: 1060px){
 
-    .mainConainer{
-        height: 90vh;
+    .mainYear, .nextSection{
+        bottom: 100px;
     }
 
     .aboutMe h2{
