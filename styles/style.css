@@ -86,7 +86,8 @@ body{
 
 .nextSection{
     position: absolute;
-    left: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 10px;
     transition: 1s;
 }
@@ -146,7 +147,9 @@ body{
     height: 100%;
     width: 65px;
     top: 0;
-    left: 50vw;
+    left: 48.2%;
+    transform: translateX(-50%);
+    padding-bottom: 5px;
     background-color: #3D3D3D;
     transform: rotate(-180deg);
     white-space: nowrap;
@@ -184,7 +187,8 @@ body{
 
 .nextSection2{
     position: absolute;
-    left: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 5px;
     transition: 1s;
 }
@@ -227,6 +231,7 @@ body{
     position: absolute;
     bottom: 0px;
     left: 50%;
+    transform: translateX(-50%);
     background-color: white;
     padding: 10px;
     border-radius: 50%;
@@ -278,7 +283,7 @@ body{
     }
 
     .mainYear, .nextSection{
-        bottom: 50px;
+        bottom: 55px;
     }
 
     .aboutMe h2{
