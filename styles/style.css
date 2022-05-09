@@ -323,9 +323,13 @@ body{
         bottom: 60px;
     }
 
-    .mainYear, .nextSection{
-        bottom: 50px;
+    .nextSection{
+        bottom: 55px;
     }
+
+    .mainYear{
+        bottom: 70px;
+    } 
 
     .nextSection img{
         width: 45px;
