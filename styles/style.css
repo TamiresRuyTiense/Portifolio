@@ -220,6 +220,13 @@ body{
 
 /* Last Section */
 
+
+.fixSide img{
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
 .section2{
     position: absolute;
     left: 50%;
@@ -394,6 +401,9 @@ body{
         width: 20px;
     }
 
+    .abilities{
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 450px) {
