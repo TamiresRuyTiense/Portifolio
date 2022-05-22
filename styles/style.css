@@ -464,6 +464,10 @@ body{
     #newNextSection2{
         display: block;
     }
+
+    .abilities{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 380px){
@@ -490,7 +494,7 @@ body{
 
     .abilities{
         margin-left: 15%;
-        font-size: 1em;
+        font-size: .8em;
     }
 
 }
